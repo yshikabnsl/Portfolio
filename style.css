@@ -10,7 +10,11 @@ a {
     color: white;
     margin-right: 70px;
     font-size: 20px;
-    padding-top: 30px;
+    padding: 15px;
+}
+a:hover {
+   border: 1px solid white;
+   border-radius: 5px;
 }
 #aboutme {
    padding-top: 160px;
@@ -185,4 +189,10 @@ big
    text-align: left;
    font-size: 20px;
    font-family: math;
+}
+
+.contact_box{
+   display: flex;
+   display: block;
+   justify-content: center;
 }

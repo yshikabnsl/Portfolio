@@ -1,27 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
-<body background="/background.jpg">
-    <big>Port</Big>
-    <small><b>folio</b></small>
-    <a href="/index.html">Home</a>
-    <a href="/aboutme.html">About me</a>
-    <a href="/Qualificaton.html">Qualifications</a>
-    <a href="/interests.html">My Interests</a>
-    <a href="/contactme.html">Contact Me</a>
-    <br><br>
-    <h4>Hello, My Name is</h4>
-    <div>
-        <big id="firstname">Yashika</big>
-        <small id="secondname">Bansal</small>
-    </div>
-    <pre id="index">Third year Btech Student</pre>
+<body>
+  <!-- Navigation -->
+  <nav id="home">
+    <!-- <a href="#home">Home</a> -->
+    <a href="#aboutme_sec">About Me</a>
+    <a href="#projects_sec">Projects</a>
+    <a href="#qualification_sec">Qualifications</a>
+    <a href="#interest_sec">My Interests</a>
+    <a href="#contactme_sec">Contact Me</a>
+  </nav>
 
+  <!-- About Section -->
+  <section id="aboutme_sec">
+    <div class="main">
+      <img class="image" src="/me.jpg" alt="picture">
+      <h1 id="aboutme">Yashika</h1>
+      <h3 id="Student">Student</h3>
+      <p id="about">
+        Hello, I’m Yashika — a fourth‑year Computer Science student at Dronacharya College of Engineering.  
+        I’m passionate about exploring new ideas, experimenting with technology, and pushing myself beyond comfort zones.  
+        My curiosity keeps me excited and motivated to learn, whether it’s solving complex problems or building creative projects in the field of computer science.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+<!-- Projects Section -->
+<section id="projects_sec">
+  <h1>Projects</h1>
+  <div id="projects">
+    <div class="project-card">
+      <h3>EcoVerse - Intelligent Waste Management System</h3>
+      <p><strong>Tech Stack:</strong> React.js, Node.js, Express.js, MongoDB</p>
+      <p>
+        Developed a prototype of EcoVerse Waste Management System to streamline waste reporting, tracking, and management using a structured web-based interface.  
+        Designed a responsive and user-friendly UI to ensure smooth navigation and improved user experience across devices.
+      </p>
+      <a href="https://github.com/yourusername/ecoverse" target="_blank" class="project-link">
+        <i class="fa-brands fa-github"></i> GitHub
+      </a>
+      <a href="https://yourusername.github.io/ecoverse" target="_blank" class="project-link">
+        <i class="fa-solid fa-up-right-from-square"></i> Live Demo
+      </a>
+    </div>
+
+    <div class="project-card">
+      <h3>IntelliQuiz</h3>
+      <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+      <p>
+        Developed IntelliQuiz, an interactive quiz web application inspired by Kaun Banega Crorepati, featuring multiple-choice questions.  
+        Designed a dynamic and responsive UI to display questions, options, and real-time score updates, ensuring a smooth and interactive user experience.
+      </p>
+      <a href="https://github.com/yshikabnsl/IntelliQuiz" target="_blank" class="project-link">
+        <i class="fa-brands fa-github"></i> GitHub
+      </a>
+      <a href="https://yshikabnsl.github.io/IntelliQuiz/" target="_blank" class="project-link">
+        <i class="fa-solid fa-up-right-from-square"></i> Live Demo
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Qualifications Section -->
+  <section id="qualification_sec">
+    <h1>Qualifications</h1>
+    <table class="table">
+      <tr id="Head">
+        <th>Institute/University</th>
+        <th>Degree/Examination</th>
+        <th>Percentage</th>
+        <th>Year</th>
+      </tr>
+      <tr id="data">
+        <td>Bal Bharti Vidya Peeth School, Gohana</td>
+        <td>10th</td>
+        <td>83.2</td>
+        <td>2021</td>
+      </tr>
+      <tr id="data">
+        <td>Swami Chetna Sr. Sec. School, Ganaur</td>
+        <td>12th</td>
+        <td>74.4</td>
+        <td>2023</td>
+      </tr>
+      <tr id="data">
+        <td>Dronacharya College of Engineering, Gurgaon</td>
+        <td>B.Tech</td>
+        <td>Pursuing (4th year)</td>
+        <td>2027</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Interests Section -->
+  <section id="interest_sec">
+    <h1>My Interests</h1>
+    <div id="main">
+      <div class="interest-card">
+        <i class="fa-solid fa-book-open-reader"></i>
+        <h3>Reading Novels</h3>
+        <p>Reading novels enriches your life in many ways. It improves knowledge and vocabulary, and is a hobby that can be enjoyed anywhere and anytime.</p>
+      </div>
+      <div class="interest-card">
+        <i class="fa fa-earth-americas"></i>
+        <h3>Travelling</h3>
+        <p>I love to travel and explore different places, learn about them, and meet new people.</p>
+      </div>
+      <div class="interest-card">
+        <i class="fa fa-kitchen-set"></i>
+        <h3>Cooking</h3>
+        <p>I enjoy cooking and trying new dishes at home. It can be challenging, but practice makes perfect.</p>
+      </div>
+      <div class="interest-card">
+        <i class="fa fa-paintbrush"></i>
+        <h3>Drawing & Painting</h3>
+        <p>Drawing enhances creativity. Though time‑consuming, it’s a rewarding way to express ideas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contactme_sec">
+    <div class="contact_box">
+      <h1 id="contactme">Contact Me</h1>
+      <p id="contact"><u>To Know More About Me:</u></p>
+      <h5><a href="mailto:byashika59@gmail.com">Click to Send Email</a></h5>
+      <a href="https://www.instagram.com/_yashikaa.05_" class="anchor">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+    </div>
+  </section>
 </body>
 </html>
